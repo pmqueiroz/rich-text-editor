@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    
+}
+
+*:focus
+{
+    outline: none;
+}
+
+.pos-fix{
+    position: fixed;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.dpl-block{
+    display: block;
+}
+
+.dpl-inline{
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: rgb(212, 222, 239);
+}
+
+i{
+    color: rgb(109, 119, 134);
+}
